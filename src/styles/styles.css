@@ -1,0 +1,11 @@
+.l_nav_item {
+  color: gray;
+}
+
+.l_nav_item:hover {
+  text-decoration: underline;
+  color: black;
+}
+.l_nav_item:focus {
+  color: black;
+}
