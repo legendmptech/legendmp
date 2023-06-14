@@ -44,7 +44,8 @@ function Privacy() {
           <p>
             Link to the privacy policy of third-party service providers used by
             the app
-          </p><br/>
+          </p>
+          <br />
           <ul>
             <li>
               <a
@@ -89,37 +90,40 @@ function Privacy() {
           We want to inform you that whenever you use our Service, in a case of
           an error in the app we collect data and information (through
           third-party products) on your phone called Log Data. This Log Data may
-          include information such as your device Internet Protocol (&ldquo;IP&rdquo;)
-          address, device name, operating system version, the configuration of
-          the app when utilizing our Service, the time and date of your use of
-          the Service, and other statistics.
+          include information such as your device Internet Protocol
+          (&ldquo;IP&rdquo;) address, device name, operating system version, the
+          configuration of the app when utilizing our Service, the time and date
+          of your use of the Service, and other statistics.
         </p>
         <h2>Cookies</h2>
         <p>
           Cookies are files with a small amount of data that are commonly used
           as anonymous unique identifiers. These are sent to your browser from
-          the websites that you visit and are stored on your device&rsquo;s internal
+          the websites that you visit and are stored on your device internal
           memory.
         </p>{" "}
         <p>
-          This Service does not use these &ldquo;cookies&rdquo; explicitly. However, the app
-          may use third-party code and libraries that use &ldquo;cookies&rdquo; to collect
-          information and improve their services. You have the option to either
-          accept or refuse these cookies and know when a cookie is being sent to
-          your device. If you choose to refuse our cookies, you may not be able
-          to use some portions of this Service.
+          This Service does not use these &ldquo;cookies&rdquo; explicitly.
+          However, the app may use third-party code and libraries that use
+          &ldquo;cookies&rdquo; to collect information and improve their
+          services. You have the option to either accept or refuse these cookies
+          and know when a cookie is being sent to your device. If you choose to
+          refuse our cookies, you may not be able to use some portions of this
+          Service.
         </p>
         <h2>Service Providers</h2>
         <p>
           We may employ third-party companies and individuals due to the
           following reasons:
-        </p><br/>
+        </p>
+        <br />
         <ul>
           <li>To facilitate our Service;</li>{" "}
           <li>To provide the Service on our behalf;</li>{" "}
           <li>To perform Service-related services; or</li>{" "}
           <li>To assist us in analyzing how our Service is used.</li>
-        </ul>{" "}<br/>
+        </ul>{" "}
+        <br />
         <p>
           We want to inform users of this Service that these third parties have
           access to their Personal Information. The reason is to perform the
