@@ -1,11 +1,11 @@
-function ProductsPage() {
+import React from "react";
+
+function Products() {
   return (
     <main className="page">
-      <div>
-        <h1>Hello from products</h1>
-      </div>
+      <h1>Hello from home screen</h1>
     </main>
   );
 }
 
-export default ProductsPage;
+export default Products;

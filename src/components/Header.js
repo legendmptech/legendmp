@@ -3,7 +3,7 @@ import Link from "next/link";
 import "../styles/styles.css";
 export default function Header() {
   return (
-    <nav className="fixed left-0 top-0 flex w-full h-16 px-5 justify-between items-center border-b-2 backdrop-blur-2xl lg:static lg:w-auto">
+    <nav className="fixed left-0 top-0 flex w-full h-16 px-5 justify-between items-center border-b-2 backdrop-blur-2xl lg:static lg:w-auto z-50">
       <Link href="/">
         <Image
           src="/logo.png"
