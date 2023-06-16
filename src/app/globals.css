@@ -15,36 +15,93 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+* {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
 body {
   color: rgb(var(--foreground-rgb));
 }
-a {
+nav a {
   text-decoration: underline;
 }
-a:hover {
+nav a:hover {
   color: red;
   cursor: pointer;
 }
 .page {
   width: 100%;
-  height: 100%;
-  margin: 20% 0;
+  padding: 64px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+.sidebar_page {
+  margin: 10px 0 10px 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 30px;
 }
 h2 {
   margin: 3% 0;
   font-size: 24px;
 }
 .app_container {
-  width: 100%;
-  padding: 10px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+.card {
+  width: 220px;
+  height: fit-content;
+  margin: 2%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.card_label {
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  padding: 2% 0;
+  background-color: green;
+  color: white;
+  z-index: 10;
+}
+.card_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-weight: 650;
+  background-color: rgb(17, 23, 205);
+  z-index: 10;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 2%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.card_description {
+  margin: 2% 1%;
+}
+
 @media screen and (min-width: 480px) {
   .app_container {
     width: 90%;
@@ -54,6 +111,49 @@ h2 {
   .app_container {
     width: 75%;
   }
+  .card {
+    width: 250px;
+  }
+  .flex-container {
+    justify-content: flex-start;
+    max-width: 80%;
+  }
+}
+
+/* DRAWER */
+
+.drawer {
+  transition: transform 0.5s ease-in-out;
+}
+.closeDrawer {
+  transform: translateX(-100%);
+}
+.openDrawer {
+  transform: translateX(0);
+}
+.drawer_item {
+  color: white;
+  text-decoration: none;
+  padding: 2% 0;
+  border-bottom: 1px solid rgb(234, 225, 225);
+  width: 100%;
+  text-align: center;
+}
+.drawer_item:hover {
+  color: aqua;
+  border-bottom: 1px solid aqua;
+}
+
+/* SIDEBAR IN THE PRODUCT PAGES */
+
+.sidebar_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  z-index: 50;
 }
 
 /* HOME PAGE STYLES */

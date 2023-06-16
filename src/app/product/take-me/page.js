@@ -1,10 +1,10 @@
 import React from "react";
 
-function Privacy() {
+function TakeMeProduct() {
   return (
-    <main className="page">
+    <main className="sidebar_page">
       <div className="app_container">
-        <h2>Privacy Policy</h2>{" "}
+        <h2>TakeMe Overview</h2>{" "}
         <p>
           Legendmp Tech built the TakeMe app as a Freemium app. This SERVICE is
           provided by Legendmp Tech at no cost and is intended for use as is.
@@ -177,4 +177,4 @@ function Privacy() {
   );
 }
 
-export default Privacy;
+export default TakeMeProduct;
