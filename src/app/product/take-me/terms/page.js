@@ -145,7 +145,7 @@ function TermsAndConditions() {
           (b) does not falsely imply sponsorship, endorsement or approval of the
           linking party and its products and/or services; and
           <br />
-          (c) fits within the context of the linking party's site.
+          (c) fits within the context of the linking party&apos;s site.
         </p>
         <br />
         <p>
