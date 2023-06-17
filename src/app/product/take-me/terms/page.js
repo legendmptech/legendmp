@@ -23,31 +23,34 @@ function TermsAndConditions() {
         <p>
           The following terminology applies to these Terms and Conditions,
           Privacy Statement and Disclaimer Notice and all Agreements:{"\n\n"}
-          "Client", "You" and "Your" refers to you, the person log on this
-          website and compliant to the Company&apos;s terms and conditions. "The
-          Company", "Ourselves", "We", "Our" and "Us", refers to our Company.
-          "Party", "Parties", or "Us", refers to both the Client and ourselves.
-          All terms refer to the offer, acceptance and consideration of payment
-          necessary to undertake the process of our assistance to the Client in
-          the most appropriate manner for the express purpose of meeting the
-          Client&apos;s needs in respect of provision of the Company&apos;s stated
-          services, in accordance with and subject to, prevailing law of in. Any
-          use of the above terminology or other words in the singular, plural,
-          capitalization and/or he/she or they, are taken as interchangeable and
-          therefore as referring to same.
+          &quot;Client&quot;, &quot;You&quot; and &quot;Your&quot; refers to
+          you, the person log on this website and compliant to the
+          Company&apos;s terms and conditions. &quot;The Company&quot;,
+          &quot;Ourselves&quot;, &quot;We&quot;, &quot;Our&quot; and
+          &quot;Us&quot;, refers to our Company. &quot;Party&quot;,
+          &quot;Parties&quot;, or &quot;Us&quot;, refers to both the Client and
+          ourselves. All terms refer to the offer, acceptance and consideration
+          of payment necessary to undertake the process of our assistance to the
+          Client in the most appropriate manner for the express purpose of
+          meeting the Client&apos;s needs in respect of provision of the
+          Company&apos;s stated services, in accordance with and subject to,
+          prevailing law of in. Any use of the above terminology or other words
+          in the singular, plural, capitalization and/or he/she or they, are
+          taken as interchangeable and therefore as referring to same.
         </p>
         <h2>Cookies</h2>
         <p>
           We employ the use of cookies. By accessing Legendmp Tech, you agreed
-          to use cookies in agreement with the Legendmp Tech&apos;s Privacy Policy.{" "}
+          to use cookies in agreement with the Legendmp Tech&apos;s Privacy
+          Policy.
         </p>
         <br />
         <p>
-          Most interactive websites use cookies to let us retrieve the user&apos;s
-          details for each visit. Cookies are used by our website to enable the
-          functionality of certain areas to make it easier for people visiting
-          our website. Some of our affiliate/advertising partners may also use
-          cookies.
+          Most interactive websites use cookies to let us retrieve the
+          user&apos;s details for each visit. Cookies are used by our website to
+          enable the functionality of certain areas to make it easier for people
+          visiting our website. Some of our affiliate/advertising partners may
+          also use cookies.
         </p>
         <h2>License</h2>
         <p>
@@ -72,7 +75,7 @@ function TermsAndConditions() {
           exchange opinions and information in certain areas of the website.
           Legendmp Tech does not filter, edit, publish or review Comments prior
           to their presence on the website. Comments do not reflect the views
-          and opinions of Legendmp Tech,its agents and/or affiliates. Comments
+          and opinions of Legendmp Tech, its agents and/or affiliates. Comments
           reflect the views and opinions of the person who post their views and
           opinions. To the extent permitted by applicable laws, Legendmp Tech
           shall not be liable for the Comments or for any liability, damages or
@@ -135,12 +138,14 @@ function TermsAndConditions() {
         </ul>
         <p>
           These organizations may link to our home page, to publications or to
-          other Website information so long as the link: <br /> <br /> (a) is
-          not in any way deceptive; <br />
+          other Website information so long as the link:
+          <br /> <br />
+          (a) is not in any way deceptive;
+          <br />
           (b) does not falsely imply sponsorship, endorsement or approval of the
           linking party and its products and/or services; and
           <br />
-          (c) fits within the context of the linking party&apos;s site.
+          (c) fits within the context of the linking party's site.
         </p>
         <br />
         <p>
@@ -161,22 +166,28 @@ function TermsAndConditions() {
           We will approve link requests from these organizations if we decide
           that:
           <br />
-          <br /> (a) the link would not make us look unfavorably to ourselves or
-          to our accredited businesses;
-          <br /> (b) the organization does not have any negative records with
-          us;
-          <br /> (c) the benefit to us from the visibility of the hyperlink
-          compensates the absence of Legendmp Tech; and
-          <br /> (d) the link is in the context of general resource information.
+          <br />
+          (a) the link would not make us look unfavorably to ourselves or to our
+          accredited businesses;
+          <br />
+          (b) the organization does not have any negative records with us;
+          <br />
+          (c) the benefit to us from the visibility of the hyperlink compensates
+          the absence of Legendmp Tech; and
+          <br />
+          (d) the link is in the context of general resource information.
         </p>
         <br />
         <p>
           These organizations may link to our home page so long as the link:
           <br />
-          <br /> (a) is not in any way deceptive;
-          <br /> (b) does not falsely imply sponsorship, endorsement or approval
-          of the linking party and its products or services; and
-          <br /> (c) fits within the context of the linking party&apos;s site.
+          <br />
+          (a) is not in any way deceptive;
+          <br />
+          (b) does not falsely imply sponsorship, endorsement, or approval of
+          the linking party and its products or services; and
+          <br />
+          (c) fits within the context of the linking party&apos;s site.
         </p>
         <br />
         <p>
@@ -199,8 +210,8 @@ function TermsAndConditions() {
           </li>
         </ul>
         <p>
-          No use of Legendmp Tech&apos;s logo or other artwork will be allowed for
-          linking absent a trademark license agreement.
+          No use of Legendmp Tech&apos;s logo or other artwork will be allowed
+          for linking absent a trademark license agreement.
         </p>
         <h2>iFrames</h2>
         <p>
@@ -208,6 +219,7 @@ function TermsAndConditions() {
           frames around our Webpages that alter in any way the visual
           presentation or appearance of our Website.
         </p>
+        <h2>Content Liability</h2>
         <h2>Content Liability</h2>
         <p>
           We shall not be hold responsible for any content that appears on your
@@ -222,8 +234,8 @@ function TermsAndConditions() {
           We reserve the right to request that you remove all links or any
           particular link to our Website. You approve to immediately remove all
           links to our Website upon request. We also reserve the right to amen
-          these terms and conditions and it&apos;s linking policy at any time. By
-          continuously linking to our Website, you agree to be bound to and
+          these terms and conditions and it&apos;s linking policy at any time.
+          By continuously linking to our Website, you agree to be bound to and
           follow these linking terms and conditions.
         </p>
         <h2>Removal of links from our website</h2>
