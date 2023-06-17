@@ -16,7 +16,7 @@
   }
 }
 * {
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
   position: relative;
 }
 body {
@@ -38,7 +38,7 @@ nav a:hover {
   justify-content: center;
 }
 .sidebar_page {
-  margin: 10px 0 10px 250px;
+  margin: 64px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,6 +50,21 @@ h1 {
 h2 {
   margin: 3% 0;
   font-size: 24px;
+  font-weight: 500;
+}
+.anchor {
+  color: blue;
+  font-style: italic;
+}
+.anchor:hover {
+  color: rgb(246, 122, 143);
+  text-decoration: underline;
+}
+li {
+  list-style-type: disc;
+  margin: 1% 0;
+  text-indent: 5px;
+  margin-left: 30px;
 }
 .app_container {
   display: flex;
@@ -109,14 +124,18 @@ h2 {
 }
 @media screen and (min-width: 768px) {
   .app_container {
-    width: 75%;
+    width: 88%;
   }
   .card {
-    width: 250px;
+    width: 240px;
   }
   .flex-container {
     justify-content: flex-start;
     max-width: 80%;
+  }
+  .sidebar_page {
+    margin-left: 250px;
+    margin-top: 20px;
   }
 }
 
@@ -143,17 +162,35 @@ h2 {
   color: aqua;
   border-bottom: 1px solid aqua;
 }
+.sidebar {
+  transition: transform 0.5s ease-in-out;
+}
+.sidebar_item {
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 90%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 2%;
+  font-weight: 500;
+}
+
+.sidebar_item_focused {
+  color: white;
+  background-color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
 
 /* SIDEBAR IN THE PRODUCT PAGES */
 
-.sidebar_fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background-color: red;
-  z-index: 50;
+.sidebarOpen {
+  transform: translateX(0);
+}
+.sidebarClose {
+  transform: translateX(-100%);
 }
 
 /* HOME PAGE STYLES */

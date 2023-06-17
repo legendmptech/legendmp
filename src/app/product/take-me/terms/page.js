@@ -4,173 +4,278 @@ function TermsAndConditions() {
   return (
     <main className="sidebar_page">
       <div className="app_container">
-        <h2>Terms & Conditions</h2>{" "}
+        <h2>Terms and Conditions</h2>
+        <p>Welcome to Legendmp Tech!</p>
         <p>
-          Legendmp Tech built the TakeMe app as a Freemium app. This SERVICE is
-          provided by Legendmp Tech at no cost and is intended for use as is.
+          These terms and conditions outline the rules and regulations for the
+          use of Legendmp Tech's Website, located at{" "}
+          <a href="https://www.legendmp.com/" className="anchor">
+            https://www.legendmp.com/
+          </a>
         </p>
         <br />
         <p>
-          This page is used to inform visitors regarding our policies with the
-          collection, use, and disclosure of Personal Information if anyone
-          decided to use our Service.
+          By accessing this website we assume you accept these terms and
+          conditions. Do not continue to use Legendmp Tech if you do not agree
+          to take all of the terms and conditions stated on this page.
         </p>
         <br />
         <p>
-          If you choose to use our Service, then you agree to the collection and
-          use of information in relation to this policy. The Personal
-          Information that we collect is used for providing and improving the
-          Service. We will not use or share your information with anyone except
-          as described in this Privacy Policy.
-        </p>{" "}
-        <p>
-          The terms used in this Privacy Policy have the same meanings as in our
-          Terms and Conditions, which are accessible at TakeMe unless otherwise
-          defined in this Privacy Policy.
-        </p>{" "}
-        <h2>Information Collection and Use</h2>
-        <p>
-          For a better experience, while using our Service, we may require you
-          to provide us with certain personally identifiable information. The
-          information that we request will be retained by us and used as
-          described in this privacy policy.
-        </p>
-        <br />
-        <div>
-          <p>
-            The app does use third-party services that may collect information
-            used to identify you.
-          </p>{" "}
-          <p>
-            Link to the privacy policy of third-party service providers used by
-            the app
-          </p>
-          <br />
-          <ul>
-            <li>
-              <a
-                href="https://www.google.com/policies/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Google Play Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://firebase.google.com/policies/analytics"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Google Analytics for Firebase
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://firebase.google.com/support/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Firebase Crashlytics
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://expo.io/privacy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Expo
-              </a>
-            </li>
-          </ul>
-        </div>{" "}
-        <h2>Log Data</h2>
-        <p>
-          We want to inform you that whenever you use our Service, in a case of
-          an error in the app we collect data and information (through
-          third-party products) on your phone called Log Data. This Log Data may
-          include information such as your device Internet Protocol
-          (&ldquo;IP&rdquo;) address, device name, operating system version, the
-          configuration of the app when utilizing our Service, the time and date
-          of your use of the Service, and other statistics.
+          The following terminology applies to these Terms and Conditions,
+          Privacy Statement and Disclaimer Notice and all Agreements:{"\n\n"}
+          "Client", "You" and "Your" refers to you, the person log on this
+          website and compliant to the Company's terms and conditions. "The
+          Company", "Ourselves", "We", "Our" and "Us", refers to our Company.
+          "Party", "Parties", or "Us", refers to both the Client and ourselves.
+          All terms refer to the offer, acceptance and consideration of payment
+          necessary to undertake the process of our assistance to the Client in
+          the most appropriate manner for the express purpose of meeting the
+          Client's needs in respect of provision of the Company's stated
+          services, in accordance with and subject to, prevailing law of in. Any
+          use of the above terminology or other words in the singular, plural,
+          capitalization and/or he/she or they, are taken as interchangeable and
+          therefore as referring to same.
         </p>
         <h2>Cookies</h2>
         <p>
-          Cookies are files with a small amount of data that are commonly used
-          as anonymous unique identifiers. These are sent to your browser from
-          the websites that you visit and are stored on your device internal
-          memory.
-        </p>{" "}
-        <p>
-          This Service does not use these &ldquo;cookies&rdquo; explicitly.
-          However, the app may use third-party code and libraries that use
-          &ldquo;cookies&rdquo; to collect information and improve their
-          services. You have the option to either accept or refuse these cookies
-          and know when a cookie is being sent to your device. If you choose to
-          refuse our cookies, you may not be able to use some portions of this
-          Service.
+          We employ the use of cookies. By accessing Legendmp Tech, you agreed
+          to use cookies in agreement with the Legendmp Tech's Privacy Policy.{" "}
         </p>
-        <h2>Service Providers</h2>
+        <br />
         <p>
-          We may employ third-party companies and individuals due to the
-          following reasons:
+          Most interactive websites use cookies to let us retrieve the user's
+          details for each visit. Cookies are used by our website to enable the
+          functionality of certain areas to make it easier for people visiting
+          our website. Some of our affiliate/advertising partners may also use
+          cookies.
         </p>
+        <h2>License</h2>
+        <p>
+          Unless otherwise stated, Legendmp Tech and/or its licensors own the
+          intellectual property rights for all material on Legendmp Tech. All
+          intellectual property rights are reserved. You may access this from
+          Legendmp Tech for your own personal use subjected to restrictions set
+          in these terms and conditions.
+        </p>
+        <br />
+        <p>You must not:</p>
         <br />
         <ul>
-          <li>To facilitate our Service;</li>{" "}
-          <li>To provide the Service on our behalf;</li>{" "}
-          <li>To perform Service-related services; or</li>{" "}
-          <li>To assist us in analyzing how our Service is used.</li>
-        </ul>{" "}
+          <li>Republish material from Legendmp Tech</li>
+          <li>Sell, rent or sub-license material from Legendmp Tech</li>
+          <li>Reproduce, duplicate or copy material from Legendmp Tech</li>
+          <li>Redistribute content from Legendmp Tech</li>
+        </ul>
         <br />
         <p>
-          We want to inform users of this Service that these third parties have
-          access to their Personal Information. The reason is to perform the
-          tasks assigned to them on our behalf. However, they are obligated not
-          to disclose or use the information for any other purpose.
+          Parts of this website offer an opportunity for users to post and
+          exchange opinions and information in certain areas of the website.
+          Legendmp Tech does not filter, edit, publish or review Comments prior
+          to their presence on the website. Comments do not reflect the views
+          and opinions of Legendmp Tech,its agents and/or affiliates. Comments
+          reflect the views and opinions of the person who post their views and
+          opinions. To the extent permitted by applicable laws, Legendmp Tech
+          shall not be liable for the Comments or for any liability, damages or
+          expenses caused and/or suffered as a result of any use of and/or
+          posting of and/or appearance of the Comments on this website.
         </p>
-        <h2>Security</h2>
+        <br />
         <p>
-          We value your trust in providing us your Personal Information, thus we
-          are striving to use commercially acceptable means of protecting it.
-          But remember that no method of transmission over the internet, or
-          method of electronic storage is 100% secure and reliable, and we
-          cannot guarantee its absolute security.
-        </p>{" "}
-        <h2>Links to Other Sites</h2>
-        <p>
-          This Service may contain links to other sites. If you click on a
-          third-party link, you will be directed to that site. Note that these
-          external sites are not operated by us. Therefore, we h2ly advise you
-          to review the Privacy Policy of these websites. We have no control
-          over and assume no responsibility for the content, privacy policies,
-          or practices of any third-party sites or services.
+          Legendmp Tech reserves the right to monitor all Comments and to remove
+          any Comments which can be considered inappropriate, offensive or
+          causes breach of these Terms and Conditions.
         </p>
-        <h2>Children&rsquo;s Privacy</h2>
-        <div>
-          <p>
-            These Services do not address anyone under the age of 13. We do not
-            knowingly collect personally identifiable information from children
-            under 13 years of age. In the case we discover that a child under 13
-            has provided us with personal information, we immediately delete
-            this from our servers. If you are a parent or guardian and you are
-            aware that your child has provided us with personal information,
-            please contact us so that we will be able to do the necessary
-            actions.
-          </p>
-        </div>{" "}
-        <h2>Changes to This Privacy Policy</h2>
+        <br />
+        <p>You warrant and represent that:</p>
+        <br />
+        <ul>
+          <li>
+            You are entitled to post the Comments on our website and have all
+            necessary licenses and consents to do so;
+          </li>
+          <li>
+            The Comments do not invade any intellectual property right,
+            including without limitation copyright, patent or trademark of any
+            third party;
+          </li>
+          <li>
+            The Comments do not contain any defamatory, libelous, offensive,
+            indecent or otherwise unlawful material which is an invasion of
+            privacy
+          </li>
+          <li>
+            The Comments will not be used to solicit or promote business or
+            custom or present commercial activities or unlawful activity.
+          </li>
+        </ul>
         <p>
-          We may update our Privacy Policy from time to time. Thus, you are
-          advised to review this page periodically for any changes. We will
-          notify you of any changes by posting the new Privacy Policy on this
-          page.
-        </p>{" "}
-        <p>This policy is effective as of 2023-06-12</p> <h2>Contact Us</h2>
+          You hereby grant Legendmp Tech a non-exclusive license to use,
+          reproduce, edit and authorize others to use, reproduce and edit any of
+          your Comments in any and all forms, formats or media.
+        </p>
+        <h2>Hyperlinking to our Content</h2>
         <p>
-          If you have any questions or suggestions about our Privacy Policy, do
-          not hesitate to contact us at www.legendmp@gmail.com.
+          The following organizations may link to our Website without prior
+          written approval:
+        </p>
+        <ul>
+          <li>Government agencies;</li>
+          <li>Search engines;</li>
+          <li>News organizations;</li>
+          <li>
+            Online directory distributors may link to our Website in the same
+            manner as they hyperlink to the Websites of other listed businesses;
+            and
+          </li>
+          <li>
+            System wide Accredited Businesses except soliciting non-profit
+            organizations, charity shopping malls, and charity fundraising
+            groups which may not hyperlink to our Web site.
+          </li>
+        </ul>
+        <p>
+          These organizations may link to our home page, to publications or to
+          other Website information so long as the link: <br /> <br /> (a) is
+          not in any way deceptive; <br />
+          (b) does not falsely imply sponsorship, endorsement or approval of the
+          linking party and its products and/or services; and
+          <br />
+          (c) fits within the context of the linking party's site.
+        </p>
+        <br />
+        <p>
+          We may consider and approve other link requests from the following
+          types of organizations:
+        </p>
+        <ul>
+          <li>commonly-known consumer and/or business information sources;</li>
+          <li>dot.com community sites;</li>
+          <li>associations or other groups representing charities;</li>
+          <li>online directory distributors;</li>
+          <li>internet portals;</li>
+          <li>accounting, law and consulting firms; and</li>
+          <li>educational institutions and trade associations.</li>
+        </ul>
+        <br />
+        <p>
+          We will approve link requests from these organizations if we decide
+          that:
+          <br />
+          <br /> (a) the link would not make us look unfavorably to ourselves or
+          to our accredited businesses;
+          <br /> (b) the organization does not have any negative records with
+          us;
+          <br /> (c) the benefit to us from the visibility of the hyperlink
+          compensates the absence of Legendmp Tech; and
+          <br /> (d) the link is in the context of general resource information.
+        </p>
+        <br />
+        <p>
+          These organizations may link to our home page so long as the link:
+          <br />
+          <br /> (a) is not in any way deceptive;
+          <br /> (b) does not falsely imply sponsorship, endorsement or approval
+          of the linking party and its products or services; and
+          <br /> (c) fits within the context of the linking party's site.
+        </p>
+        <br />
+        <p>
+          If you are one of the organizations listed in paragraph 2 above and
+          are interested in linking to our website, you must inform us by
+          sending an e-mail to Legendmp Tech. Please include your name, your
+          organization name, contact information as well as the URL of your
+          site, a list of any URLs from which you intend to link to our Website,
+          and a list of the URLs on our site to which you would like to link.
+          Wait 2-3 weeks for a response.
+        </p>
+        <p>Approved organizations may hyperlink to our Website as follows:</p>
+        <ul>
+          <li>By use of our corporate name; or</li>
+          <li>By use of the uniform resource locator being linked to; or</li>
+          <li>
+            By use of any other description of our Website being linked to that
+            makes sense within the context and format of content on the linking
+            party's site.
+          </li>
+        </ul>
+        <p>
+          No use of Legendmp Tech's logo or other artwork will be allowed for
+          linking absent a trademark license agreement.
+        </p>
+        <h2>iFrames</h2>
+        <p>
+          Without prior approval and written permission, you may not create
+          frames around our Webpages that alter in any way the visual
+          presentation or appearance of our Website.
+        </p>
+        <h2>Content Liability</h2>
+        <p>
+          We shall not be hold responsible for any content that appears on your
+          Website. You agree to protect and defend us against all claims that is
+          rising on your Website. No link(s) should appear on any Website that
+          may be interpreted as libelous, obscene or criminal, or which
+          infringes, otherwise violates, or advocates the infringement or other
+          violation of, any third party rights.
+        </p>
+        <h2>Reservation of Rights</h2>
+        <p>
+          We reserve the right to request that you remove all links or any
+          particular link to our Website. You approve to immediately remove all
+          links to our Website upon request. We also reserve the right to amen
+          these terms and conditions and it's linking policy at any time. By
+          continuously linking to our Website, you agree to be bound to and
+          follow these linking terms and conditions.
+        </p>
+        <h2>Removal of links from our website</h2>
+        <p>
+          If you find any link on our Website that is offensive for any reason,
+          you are free to contact and inform us any moment. We will consider
+          requests to remove links but we are not obligated to or so or to
+          respond to you directly.
+        </p>
+        <p>
+          We do not ensure that the information on this website is correct, we
+          do not warrant its completeness or accuracy; nor do we promise to
+          ensure that the website remains available or that the material on the
+          website is kept up to date.
+        </p>
+        <h2>Disclaimer</h2>
+        <p>
+          To the maximum extent permitted by applicable law, we exclude all
+          representations, warranties and conditions relating to our website and
+          the use of this website. Nothing in this disclaimer will:
+        </p>
+        <ul>
+          <li>
+            limit or exclude our or your liability for death or personal injury;
+          </li>
+          <li>
+            limit or exclude our or your liability for fraud or fraudulent
+            misrepresentation;
+          </li>
+          <li>
+            limit any of our or your liabilities in any way that is not
+            permitted under applicable law; or
+          </li>
+          <li>
+            exclude any of our or your liabilities that may not be excluded
+            under applicable law.
+          </li>
+        </ul>
+        <p>
+          The limitations and prohibitions of liability set in this Section and
+          elsewhere in this disclaimer:
+          <br />
+          <br /> (a) are subject to the preceding paragraph; and
+          <br /> (b) govern all liabilities arising under the disclaimer,
+          including liabilities arising in contract, in tort and for breach of
+          statutory duty.
+        </p>
+        <br />
+        <p>
+          As long as the website and the information and services on the website
+          are provided free of charge, we will not be liable for any loss or
+          damage of any nature.
         </p>
       </div>
     </main>

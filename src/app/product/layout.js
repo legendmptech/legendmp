@@ -14,9 +14,12 @@ export const metadata = {
 export default function ProductLayout({ children }) {
   return (
     <html lang="en">
-      <body className={[inter.className]}>
+      <body
+        className={[inter.className]}
+        style={{ backgroundColor: "#faf7f7" }}
+      >
         <div className="flex flex-row justify-start">
-          <Sidebar />
+          <ProductHeader />
           {children}
         </div>
       </body>

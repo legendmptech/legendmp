@@ -1,44 +1,108 @@
+"use client";
+import { useState, useRef } from "react";
+import { ROUTES, SETTINGS } from "@/config";
 import "../../styles/styles.css";
 import Link from "next/link";
+import {
+  MdAssignment,
+  MdDashboard,
+  MdPrivacyTip,
+  MdCallToAction,
+} from "react-icons/md";
+import { FaChalkboardTeacher } from "react-icons/fa";
 
 function Sidebar({ isOpen, toggleDrawer }) {
   const toggle = () => toggleDrawer(!isOpen);
+  const [selectedDrawerItem, setSelectedDrawerItem] = useState(
+    ROUTES.OVERVIEW_PRODUCT
+  );
+
   return (
-    // <div
-    //   className={`w-2/3 h-full bg-black fixed top-0 left-0 md:flex ${
-    //     isOpen ? "openDrawer" : "closeDrawer"
-    //   } z-50 rounded-r-lg pt-28 md:openDrawer`}
-    // >
-    //   <div className="w-full flex flex-col justify-start items-center">
-    //     <Link href="/" className="drawer_item" onClick={toggle}>
-    //       Home
-    //     </Link>
-    //     <Link href="/products" className="drawer_item" onClick={toggle}>
-    //       Products
-    //     </Link>
-    //     <Link href="/blog" className="drawer_item" onClick={toggle}>
-    //       Blog
-    //     </Link>
-    //     <Link href="/about" className="drawer_item" onClick={toggle}>
-    //       About
-    //     </Link>
-    //   </div>
-    // </div>
-    <div className="w-64 h-full bg-red-400 fixed top-0 left-0">
+    <div
+      className={`w-64 h-full fixed top-0 left-0 bg-white z-50 ${
+        isOpen ? "sidebarOpen" : "sidebarClose"
+      } sidebar md:translate-x-0`}
+    >
       <div className="flex flex-col items-center pt-5">
-        <h1>TakeMe</h1>
+        <h1 className="font-medium">TakeMe</h1>
+        <p style={{ textAlign: "center", fontSize: "14px", color: "gray" }}>
+          A Note taking and Thoughts Organizing app
+        </p>
         <div className="w-full flex flex-col justify-start items-center pt-8">
-          <Link href="/product/take-me" className="drawer_item">
-            Overview
+          <Link
+            href="/product/take-me"
+            className={`sidebar_item ${
+              selectedDrawerItem === ROUTES.OVERVIEW_PRODUCT
+                ? "sidebar_item_focused"
+                : ""
+            }`}
+            onClick={() => {
+              setSelectedDrawerItem(ROUTES.OVERVIEW_PRODUCT);
+              toggle();
+            }}
+          >
+            <MdDashboard size={SETTINGS.ICON_SMALL} />
+            {ROUTES.OVERVIEW_PRODUCT}
           </Link>
-          <Link href="/product/take-me" className="drawer_item">
-            Tutorials
+          <Link
+            href="/product/take-me"
+            className={`sidebar_item ${
+              selectedDrawerItem === ROUTES.TUTORIAL_PRODUCT
+                ? "sidebar_item_focused"
+                : ""
+            }`}
+            onClick={() => {
+              setSelectedDrawerItem(ROUTES.TUTORIAL_PRODUCT);
+              toggle();
+            }}
+          >
+            <FaChalkboardTeacher size={SETTINGS.ICON_SMALL} />
+            {ROUTES.TUTORIAL_PRODUCT}
           </Link>
-          <Link href="/product/take-me/terms" className="drawer_item">
-            Terms and Conditions
+          <Link
+            href="/product/take-me/terms"
+            className={`sidebar_item ${
+              selectedDrawerItem === ROUTES.TERMS_PRODUCT
+                ? "sidebar_item_focused"
+                : ""
+            }`}
+            onClick={() => {
+              setSelectedDrawerItem(ROUTES.TERMS_PRODUCT);
+              toggle();
+            }}
+          >
+            <MdAssignment size={SETTINGS.ICON_SMALL} />
+            {ROUTES.TERMS_PRODUCT}
           </Link>
-          <Link href="/product/take-me/privacy" className="drawer_item">
-            Privacy Policy
+          <Link
+            href="/product/take-me/privacy"
+            className={`sidebar_item ${
+              selectedDrawerItem === ROUTES.PRIVACY_PRODUCT
+                ? "sidebar_item_focused"
+                : ""
+            }`}
+            onClick={() => {
+              setSelectedDrawerItem(ROUTES.PRIVACY_PRODUCT);
+              toggle();
+            }}
+          >
+            <MdPrivacyTip size={SETTINGS.ICON_SMALL} />
+            {ROUTES.PRIVACY_PRODUCT}
+          </Link>
+          <Link
+            href="/product/take-me/privacy"
+            className={`sidebar_item ${
+              selectedDrawerItem === ROUTES.CONTACT_PRODUCT
+                ? "sidebar_item_focused"
+                : ""
+            }`}
+            onClick={() => {
+              setSelectedDrawerItem(ROUTES.CONTACT_PRODUCT);
+              toggle();
+            }}
+          >
+            <MdCallToAction size={SETTINGS.ICON_SMALL} />
+            {ROUTES.CONTACT_PRODUCT}
           </Link>
         </div>
       </div>

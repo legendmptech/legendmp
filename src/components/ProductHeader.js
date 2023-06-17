@@ -7,13 +7,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function ProductHeader() {
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [isSidebarOpen, isSetSidebarOpen] = useState(false);
   const toggleDrawer = () => {
-    setIsDrawerOpen(!isDrawerOpen);
+    isSetSidebarOpen(!isSidebarOpen);
   };
   return (
     <>
-      <Sidebar isOpen={isDrawerOpen} toggleDrawer={toggleDrawer} />
+      <Sidebar isOpen={isSidebarOpen} toggleDrawer={toggleDrawer} />
       <nav className="fixed md:hidden left-0 top-0 flex w-full h-16 px-5 justify-between items-center border-b-2 backdrop-blur-2xl z-40">
         <Link href="/products">
           <Image
@@ -25,7 +25,7 @@ export default function ProductHeader() {
           />
         </Link>
         <div style={{ cursor: "pointer" }} className="md:hidden">
-          {isDrawerOpen ? (
+          {isSidebarOpen ? (
             <RiCloseFill size={SETTINGS.ICON_MEDIUM} onClick={toggleDrawer} />
           ) : (
             <RiMenu3Fill size={SETTINGS.ICON_MEDIUM} onClick={toggleDrawer} />
