@@ -8,7 +8,7 @@ function TermsAndConditions() {
         <p>Welcome to Legendmp Tech!</p>
         <p>
           These terms and conditions outline the rules and regulations for the
-          use of Legendmp Tech's Website, located at{" "}
+          use of Legendmp Tech&apos;s Website, located at{" "}
           <a href="https://www.legendmp.com/" className="anchor">
             https://www.legendmp.com/
           </a>
@@ -24,13 +24,13 @@ function TermsAndConditions() {
           The following terminology applies to these Terms and Conditions,
           Privacy Statement and Disclaimer Notice and all Agreements:{"\n\n"}
           "Client", "You" and "Your" refers to you, the person log on this
-          website and compliant to the Company's terms and conditions. "The
+          website and compliant to the Company&apos;s terms and conditions. "The
           Company", "Ourselves", "We", "Our" and "Us", refers to our Company.
           "Party", "Parties", or "Us", refers to both the Client and ourselves.
           All terms refer to the offer, acceptance and consideration of payment
           necessary to undertake the process of our assistance to the Client in
           the most appropriate manner for the express purpose of meeting the
-          Client's needs in respect of provision of the Company's stated
+          Client&apos;s needs in respect of provision of the Company&apos;s stated
           services, in accordance with and subject to, prevailing law of in. Any
           use of the above terminology or other words in the singular, plural,
           capitalization and/or he/she or they, are taken as interchangeable and
@@ -39,11 +39,11 @@ function TermsAndConditions() {
         <h2>Cookies</h2>
         <p>
           We employ the use of cookies. By accessing Legendmp Tech, you agreed
-          to use cookies in agreement with the Legendmp Tech's Privacy Policy.{" "}
+          to use cookies in agreement with the Legendmp Tech&apos;s Privacy Policy.{" "}
         </p>
         <br />
         <p>
-          Most interactive websites use cookies to let us retrieve the user's
+          Most interactive websites use cookies to let us retrieve the user&apos;s
           details for each visit. Cookies are used by our website to enable the
           functionality of certain areas to make it easier for people visiting
           our website. Some of our affiliate/advertising partners may also use
@@ -140,7 +140,7 @@ function TermsAndConditions() {
           (b) does not falsely imply sponsorship, endorsement or approval of the
           linking party and its products and/or services; and
           <br />
-          (c) fits within the context of the linking party's site.
+          (c) fits within the context of the linking party&apos;s site.
         </p>
         <br />
         <p>
@@ -176,7 +176,7 @@ function TermsAndConditions() {
           <br /> (a) is not in any way deceptive;
           <br /> (b) does not falsely imply sponsorship, endorsement or approval
           of the linking party and its products or services; and
-          <br /> (c) fits within the context of the linking party's site.
+          <br /> (c) fits within the context of the linking party&apos;s site.
         </p>
         <br />
         <p>
@@ -195,11 +195,11 @@ function TermsAndConditions() {
           <li>
             By use of any other description of our Website being linked to that
             makes sense within the context and format of content on the linking
-            party's site.
+            party&apos;s site.
           </li>
         </ul>
         <p>
-          No use of Legendmp Tech's logo or other artwork will be allowed for
+          No use of Legendmp Tech&apos;s logo or other artwork will be allowed for
           linking absent a trademark license agreement.
         </p>
         <h2>iFrames</h2>
@@ -222,7 +222,7 @@ function TermsAndConditions() {
           We reserve the right to request that you remove all links or any
           particular link to our Website. You approve to immediately remove all
           links to our Website upon request. We also reserve the right to amen
-          these terms and conditions and it's linking policy at any time. By
+          these terms and conditions and it&apos;s linking policy at any time. By
           continuously linking to our Website, you agree to be bound to and
           follow these linking terms and conditions.
         </p>
