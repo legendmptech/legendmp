@@ -33,7 +33,7 @@ function Sidebar({ isOpen, toggleDrawer }) {
             href="/product/take-me"
             className={`sidebar_item ${
               selectedDrawerItem === ROUTES.OVERVIEW_PRODUCT
-                ? "sidebar_item_focused"
+                ? "sidebar_item_focused text-white"
                 : ""
             }`}
             onClick={() => {
@@ -41,7 +41,9 @@ function Sidebar({ isOpen, toggleDrawer }) {
               toggle();
             }}
           >
-            <MdDashboard size={SETTINGS.ICON_SMALL} />
+            {selectedDrawerItem !== ROUTES.OVERVIEW_PRODUCT && (
+              <MdDashboard size={SETTINGS.ICON_SMALL} color={"#fff"} />
+            )}
             {ROUTES.OVERVIEW_PRODUCT}
           </Link>
           <Link
@@ -56,7 +58,9 @@ function Sidebar({ isOpen, toggleDrawer }) {
               toggle();
             }}
           >
-            <FaChalkboardTeacher size={SETTINGS.ICON_SMALL} />
+            {selectedDrawerItem !== ROUTES.TUTORIAL_PRODUCT && (
+              <FaChalkboardTeacher size={SETTINGS.ICON_SMALL} />
+            )}
             {ROUTES.TUTORIAL_PRODUCT}
           </Link>
           <Link
@@ -71,7 +75,9 @@ function Sidebar({ isOpen, toggleDrawer }) {
               toggle();
             }}
           >
-            <MdAssignment size={SETTINGS.ICON_SMALL} />
+            {selectedDrawerItem !== ROUTES.TERMS_PRODUCT && (
+              <MdAssignment size={SETTINGS.ICON_SMALL} />
+            )}
             {ROUTES.TERMS_PRODUCT}
           </Link>
           <Link
@@ -86,7 +92,9 @@ function Sidebar({ isOpen, toggleDrawer }) {
               toggle();
             }}
           >
-            <MdPrivacyTip size={SETTINGS.ICON_SMALL} />
+            {selectedDrawerItem !== ROUTES.PRIVACY_PRODUCT && (
+              <MdPrivacyTip size={SETTINGS.ICON_SMALL} />
+            )}
             {ROUTES.PRIVACY_PRODUCT}
           </Link>
           <Link
@@ -101,7 +109,9 @@ function Sidebar({ isOpen, toggleDrawer }) {
               toggle();
             }}
           >
-            <MdCallToAction size={SETTINGS.ICON_SMALL} />
+            {selectedDrawerItem !== ROUTES.CONTACT_PRODUCT && (
+              <MdCallToAction size={SETTINGS.ICON_SMALL} />
+            )}
             {ROUTES.CONTACT_PRODUCT}
           </Link>
         </div>

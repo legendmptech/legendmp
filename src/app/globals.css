@@ -18,6 +18,7 @@
 * {
   /* transition: all 0.3s ease-in-out; */
   position: relative;
+  color: black;
 }
 body {
   color: rgb(var(--foreground-rgb));
@@ -28,6 +29,16 @@ nav a {
 nav a:hover {
   color: red;
   cursor: pointer;
+}
+footer li {
+  list-style-type: none;
+}
+li a {
+  color: white;
+}
+li a:hover {
+  color: rgb(254, 221, 221);
+  text-decoration: underline;
 }
 .page {
   width: 100%;
