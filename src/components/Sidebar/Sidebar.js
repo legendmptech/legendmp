@@ -1,4 +1,3 @@
-"use client";
 import { useState, useRef } from "react";
 import { ROUTES, SETTINGS } from "@/config";
 import "../../styles/styles.css";
