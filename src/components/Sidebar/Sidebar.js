@@ -39,6 +39,7 @@ function Sidebar({ isOpen, toggleDrawer }) {
               setSelectedDrawerItem(ROUTES.OVERVIEW_PRODUCT);
               toggle();
             }}
+            passHref
           >
             {selectedDrawerItem !== ROUTES.OVERVIEW_PRODUCT && (
               <MdDashboard size={SETTINGS.ICON_SMALL} color={"#fff"} />
@@ -56,6 +57,7 @@ function Sidebar({ isOpen, toggleDrawer }) {
               setSelectedDrawerItem(ROUTES.TUTORIAL_PRODUCT);
               toggle();
             }}
+            passHref
           >
             {selectedDrawerItem !== ROUTES.TUTORIAL_PRODUCT && (
               <FaChalkboardTeacher size={SETTINGS.ICON_SMALL} />
@@ -73,6 +75,7 @@ function Sidebar({ isOpen, toggleDrawer }) {
               setSelectedDrawerItem(ROUTES.TERMS_PRODUCT);
               toggle();
             }}
+            passHref
           >
             {selectedDrawerItem !== ROUTES.TERMS_PRODUCT && (
               <MdAssignment size={SETTINGS.ICON_SMALL} />
@@ -90,6 +93,7 @@ function Sidebar({ isOpen, toggleDrawer }) {
               setSelectedDrawerItem(ROUTES.PRIVACY_PRODUCT);
               toggle();
             }}
+            passHref
           >
             {selectedDrawerItem !== ROUTES.PRIVACY_PRODUCT && (
               <MdPrivacyTip size={SETTINGS.ICON_SMALL} />
@@ -107,6 +111,7 @@ function Sidebar({ isOpen, toggleDrawer }) {
               setSelectedDrawerItem(ROUTES.CONTACT_PRODUCT);
               toggle();
             }}
+            passHref
           >
             {selectedDrawerItem !== ROUTES.CONTACT_PRODUCT && (
               <MdCallToAction size={SETTINGS.ICON_SMALL} />

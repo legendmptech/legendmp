@@ -17,7 +17,10 @@ export default function Header() {
   return (
     <>
       <Drawer isOpen={isDrawerOpen} toggleDrawer={toggleDrawer} />
-      <nav className="fixed left-0 top-0 flex w-full h-16 px-5 justify-between items-center border-b-2 backdrop-blur-2xl z-40">
+      <nav
+        className="fixed left-0 top-0 flex w-full h-16 px-5 justify-between items-center border-b-2 backdrop-blur-2xl"
+        style={{ zIndex: 51 }}
+      >
         <Link href="/">
           <Image
             src="/logo.png"
