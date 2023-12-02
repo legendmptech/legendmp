@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primay: #0f57fbff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl md:text-5xl mb-5;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl my-3 md:my-5;
+  }
+  h2 {
+    @apply text-2xl md:text-3xl my-2 md:my-4;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-bold;
+  }
+  b,
+  p {
+    @apply text-base md:text-lg;
+  }
+  a {
+    @apply text-base md:text-lg;
+  }
+  .page a {
+    @apply text-blue-600 hover:underline hover:text-blue-500;
+  }
+  header {
+    @apply text-lg md:text-xl;
+  }
+  .page ul {
+    @apply list-square;
+  }
+  .page li {
+    @apply my-2 text-base md:text-lg;
+  }
+}
+
+.page-head {
+  background-color: var(--primay);
+}
+.page-head span {
+  font-size: 24px;
+}
+.page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.app_container {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  gap: 10px;
+}
+
+/* HOME PAGE STYLES */
+.hero {
+  width: 100%;
+  height: 60vh;
+  background-image: url("/images/hero_bg.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+.header_img {
+  /* { objectFit: "cover", maxHeight: "45%", marginTop: "64px" } */
+  margin-top: 64px;
+  max-height: 40%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+}
+
+.banner-container {
+  position: relative;
+  margin-top: 64px;
+  height: 40%;
+  width: 100%;
+  max-height: 40%;
+}
+
+.banner-backdrop {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0);
+  top: 0;
+  left: 0;
+}
+
+.banner-text {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.banner-container-left {
+  width: 50%;
+}
+
+@media screen and (min-width: 480px) {
+  .app_container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-head span {
+    font-size: 28px;
+  }
+  .page-head {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .app_container {
+    width: 85%;
+  }
+  .flex-container {
+    width: 80%;
+    flex-direction: row;
+  }
+}
