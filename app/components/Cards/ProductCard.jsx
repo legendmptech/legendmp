@@ -4,7 +4,7 @@ import Link from "next/link";
 function ProductCard({ title, desc, label, route_link, img_link }) {
   return (
     <Link
-      href={"route_link"}
+      href={route_link}
       className="py-4 w-4/5 sm:w-1/3 flex flex-col items-center gap-2 hover:no-underline text-black"
       style={{ boxShadow: "0 0 2px rgba(0, 0, 0, 0.4)" }}
     >
