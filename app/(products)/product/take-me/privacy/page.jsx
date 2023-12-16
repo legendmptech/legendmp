@@ -1,10 +1,11 @@
+import Link from "next/link";
 import React from "react";
 
 function Privacy() {
   return (
-    <main className="page mt-16">
+    <main className="page mt-5">
       <div className="app_container">
-        <h2>Privacy Policy</h2>{" "}
+        <h2 className="sticky top-6 lg:relative lg:top-0">Privacy Policy</h2>{" "}
         <p>
           Legendmp Tech built the TakeMe app as a Freemium app. This SERVICE is
           provided by Legendmp Tech at no cost and is intended for use as is.
@@ -46,44 +47,46 @@ function Privacy() {
             the app
           </p>
           <br />
-          <ul className="main">
-            <li>
-              <a
-                href="https://www.google.com/policies/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Google Play Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://firebase.google.com/policies/analytics"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Google Analytics for Firebase
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://firebase.google.com/support/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Firebase Crashlytics
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://expo.io/privacy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Expo
-              </a>
-            </li>
-          </ul>
+          <div className="px-5">
+            <ul className="main">
+              <li>
+                <Link
+                  href="https://www.google.com/policies/privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Play Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://firebase.google.com/policies/analytics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Analytics for Firebase
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://firebase.google.com/support/privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Firebase Crashlytics
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://expo.io/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Expo
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>{" "}
         <h2>Log Data</h2>
         <p>

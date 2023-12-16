@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "About Us | Legendmp Technologies",
+  description:
+    "How we Started ? Our Mission & Goals | Legendmp Technologies is a Software company. We serve Mobile and Web applications to our clients.",
+};
 function AboutPage() {
   return (
     <main className="page">
@@ -22,7 +27,7 @@ function AboutPage() {
           </div>
           <div>
             <h2>Core Values</h2>
-            <div>
+            <div className="px-5">
               <ul>
                 <li>
                   <b>Innovation</b> We constantly explore new horizons, pushing

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const LogoIcon = (props) => {
+const LogoTakeMeIcon = (props) => {
   return (
     <div className={`flex flex-row ${props?.className}`}>
       <Image priority src="/logo.png" height={30} width={30} alt="Logo" />
@@ -10,4 +10,4 @@ const LogoIcon = (props) => {
   );
 };
 
-export default LogoIcon;
+export default LogoTakeMeIcon;

@@ -1,6 +1,13 @@
 import ServicesComp from "./components/ServicesComp";
 import RatingsComp from "./components/RatingsComp";
 
+export const metadata = {
+  title:
+    "Legendmp Technologies | We Provide Mobile & Web app development services",
+  description:
+    "Legendmp Technologies is a Software company. We serve Mobile and Web applications to our client.",
+};
+
 export default function Home() {
   return (
     <main className="page pb-10">

@@ -14,7 +14,7 @@ function FlexShowcase({ title, caption, img_link, isReverse }) {
         <h2>{title}</h2>
         <p className="">{caption}</p>
       </div>
-      <div className="w-full md:w-1/2 flex flex-row justify-center content-center">
+      <div className="w-full md:w-1/2 flex flex-row justify-center content-center z-0">
         <div className="w-2/3">
           <Player autoplay loop src={img_link}></Player>
         </div>

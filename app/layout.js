@@ -3,14 +3,9 @@ import "./globals.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import LogoIcon from "./components/Icons/LogoIcon";
+import Head from "next/head";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "Legendmp Technologies",
-  description: "A platform to make your ideas into a SAAS product",
-};
-
 export default function RootLayout({ children, params }) {
   console.log(params);
   const navList = [
@@ -33,6 +28,9 @@ export default function RootLayout({ children, params }) {
   ];
   return (
     <html lang="en" data-theme="light">
+      <Head>
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+      </Head>
       <body
         className={`${openSans.className} selection:bg-black selection:text-white`}
       >

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function TakeMeProduct() {
@@ -48,40 +49,40 @@ function TakeMeProduct() {
           <br />
           <ul>
             <li>
-              <a
+              <Link
                 href="https://www.google.com/policies/privacy/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Google Play Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://firebase.google.com/policies/analytics"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Google Analytics for Firebase
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://firebase.google.com/support/privacy/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Firebase Crashlytics
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://expo.io/privacy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Expo
-              </a>
+              </Link>
             </li>
           </ul>
         </div>{" "}

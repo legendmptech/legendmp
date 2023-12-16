@@ -8,7 +8,7 @@ const NavBar = ({ child, navList, Logo }) => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full navbar bg-base-200 md:flex md:justify-center">
+        <div className="w-full navbar bg-base-200 md:flex md:justify-center sticky top-0 left-0">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -30,7 +30,7 @@ const NavBar = ({ child, navList, Logo }) => {
               </svg>
             </label>
           </div>
-          <div className="w-full max-w-5xl flex justify-between px-2">
+          <div className="w-full max-w-5xl flex justify-between px-2 z-50">
             {Logo}
             <div className="flex-none hidden lg:block">
               <ul className="menu menu-horizontal">

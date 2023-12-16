@@ -1,4 +1,6 @@
-import NavBar from "@/app/NavBar";
+import ProductNavBar from "../components/ProductNavBar";
+import LogoTakeMeIcon from "../components/Icons/LogoTakeMeIcon";
+import Image from "next/image";
 
 export const metadata = {
   title: "TAKEME - Take notes & Organize",
@@ -17,5 +19,31 @@ export default function TakeMEAppLayout({ children, params }) {
       title: "Terms of Use",
     },
   ];
-  return <section>{children}</section>;
+  return (
+    <section>
+      <ProductNavBar
+        child={children}
+        navList={navList}
+        LogoSmall={
+          <Image
+            src={"/images/take-me/logo120x120.png"}
+            width={70}
+            height={70}
+            className="rounded-lg"
+          />
+        }
+        Logo={
+          <div className="w-full flex flex-col items-center gap-3 mb-10">
+            <Image
+              src={"/images/take-me/logo120x120.png"}
+              width={100}
+              height={100}
+              className="rounded-lg"
+            />
+            <b>TakeMe | take notes</b>
+          </div>
+        }
+      />
+    </section>
+  );
 }

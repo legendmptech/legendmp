@@ -1,5 +1,10 @@
 import Link from "next/link";
 import React from "react";
+export const metadata = {
+  title: "Terms and Conditions | Legendmp Technologies ",
+  description:
+    "These terms and conditions outline the rules and regulations for the use of Legendmp Technologies Website, located at https://www.legendmp.com",
+};
 
 function TermsAndConditions() {
   return (
@@ -9,7 +14,7 @@ function TermsAndConditions() {
         <b>Welcome to Legendmp Technologies!</b>
         <p className="mt-2 md:mt-3">
           These terms and conditions outline the rules and regulations for the
-          use of Legendmp Tech&apos;s Website, located at{" "}
+          use of Legendmp Technologies&apos;s Website, located at{" "}
           <Link href="https://www.legendmp.com/" target="_blank">
             https://www.legendmp.com/
           </Link>
@@ -17,8 +22,8 @@ function TermsAndConditions() {
         <br />
         <p>
           By accessing this website we assume you accept these terms and
-          conditions. Do not continue to use Legendmp Tech if you do not agree
-          to take all of the terms and conditions stated on this page.
+          conditions. Do not continue to use Legendmp Technologies if you do not
+          agree to take all of the terms and conditions stated on this page.
         </p>
         <br />
         <p>
@@ -41,9 +46,9 @@ function TermsAndConditions() {
         </p>
         <h2>Cookies</h2>
         <p>
-          We employ the use of cookies. By accessing Legendmp Tech, you agreed
-          to use cookies in agreement with the Legendmp Tech&apos;s Privacy
-          Policy.
+          We employ the use of cookies. By accessing Legendmp Technologies, you
+          agreed to use cookies in agreement with the Legendmp
+          Technologies&apos;s Privacy Policy.
         </p>
         <br />
         <p>
@@ -55,65 +60,74 @@ function TermsAndConditions() {
         </p>
         <h2>License</h2>
         <p>
-          Unless otherwise stated, Legendmp Tech and/or its licensors own the
-          intellectual property rights for all material on Legendmp Tech. All
-          intellectual property rights are reserved. You may access this from
-          Legendmp Tech for your own personal use subjected to restrictions set
-          in these terms and conditions.
+          Unless otherwise stated, Legendmp Technologies and/or its licensors
+          own the intellectual property rights for all material on Legendmp
+          Technologies. All intellectual property rights are reserved. You may
+          access this from Legendmp Technologies for your own personal use
+          subjected to restrictions set in these terms and conditions.
         </p>
         <br />
         <b>You must not:</b>
         <br />
-        <ul>
-          <li>Republish material from Legendmp Tech</li>
-          <li>Sell, rent or sub-license material from Legendmp Tech</li>
-          <li>Reproduce, duplicate or copy material from Legendmp Tech</li>
-          <li>Redistribute content from Legendmp Tech</li>
-        </ul>
+        <div className="px-5">
+          <ul>
+            <li>Republish material from Legendmp Technologies</li>
+            <li>
+              Sell, rent or sub-license material from Legendmp Technologies
+            </li>
+            <li>
+              Reproduce, duplicate or copy material from Legendmp Technologies
+            </li>
+            <li>Redistribute content from Legendmp Technologies</li>
+          </ul>
+        </div>
         <br />
         <p>
           Parts of this website offer an opportunity for users to post and
           exchange opinions and information in certain areas of the website.
-          Legendmp Tech does not filter, edit, publish or review Comments prior
-          to their presence on the website. Comments do not reflect the views
-          and opinions of Legendmp Tech, its agents and/or affiliates. Comments
-          reflect the views and opinions of the person who post their views and
-          opinions. To the extent permitted by applicable laws, Legendmp Tech
-          shall not be liable for the Comments or for any liability, damages or
-          expenses caused and/or suffered as a result of any use of and/or
-          posting of and/or appearance of the Comments on this website.
+          Legendmp Technologies does not filter, edit, publish or review
+          Comments prior to their presence on the website. Comments do not
+          reflect the views and opinions of Legendmp Technologies, its agents
+          and/or affiliates. Comments reflect the views and opinions of the
+          person who post their views and opinions. To the extent permitted by
+          applicable laws, Legendmp Technologies shall not be liable for the
+          Comments or for any liability, damages or expenses caused and/or
+          suffered as a result of any use of and/or posting of and/or appearance
+          of the Comments on this website.
         </p>
         <br />
         <p>
-          Legendmp Tech reserves the right to monitor all Comments and to remove
-          any Comments which can be considered inappropriate, offensive or
-          causes breach of these Terms and Conditions.
+          Legendmp Technologies reserves the right to monitor all Comments and
+          to remove any Comments which can be considered inappropriate,
+          offensive or causes breach of these Terms and Conditions.
         </p>
         <br />
         <b>You warrant and represent that:</b>
         <br />
-        <ul>
-          <li>
-            You are entitled to post the Comments on our website and have all
-            necessary licenses and consents to do so;
-          </li>
-          <li>
-            The Comments do not invade any intellectual property right,
-            including without limitation copyright, patent or trademark of any
-            third party;
-          </li>
-          <li>
-            The Comments do not contain any defamatory, libelous, offensive,
-            indecent or otherwise unlawful material which is an invasion of
-            privacy
-          </li>
-          <li>
-            The Comments will not be used to solicit or promote business or
-            custom or present commercial activities or unlawful activity.
-          </li>
-        </ul>
+        <div className="px-5">
+          <ul>
+            <li>
+              You are entitled to post the Comments on our website and have all
+              necessary licenses and consents to do so;
+            </li>
+            <li>
+              The Comments do not invade any intellectual property right,
+              including without limitation copyright, patent or trademark of any
+              third party;
+            </li>
+            <li>
+              The Comments do not contain any defamatory, libelous, offensive,
+              indecent or otherwise unlawful material which is an invasion of
+              privacy
+            </li>
+            <li>
+              The Comments will not be used to solicit or promote business or
+              custom or present commercial activities or unlawful activity.
+            </li>
+          </ul>
+        </div>
         <p>
-          You hereby grant Legendmp Tech a non-exclusive license to use,
+          You hereby grant Legendmp Technologies a non-exclusive license to use,
           reproduce, edit and authorize others to use, reproduce and edit any of
           your Comments in any and all forms, formats or media.
         </p>
@@ -122,21 +136,23 @@ function TermsAndConditions() {
           The following organizations may link to our Website without prior
           written approval:
         </p>
-        <ul>
-          <li>Government agencies;</li>
-          <li>Search engines;</li>
-          <li>News organizations;</li>
-          <li>
-            Online directory distributors may link to our Website in the same
-            manner as they hyperlink to the Websites of other listed businesses;
-            and
-          </li>
-          <li>
-            System wide Accredited Businesses except soliciting non-profit
-            organizations, charity shopping malls, and charity fundraising
-            groups which may not hyperlink to our Web site.
-          </li>
-        </ul>
+        <div className="px-5">
+          <ul>
+            <li>Government agencies;</li>
+            <li>Search engines;</li>
+            <li>News organizations;</li>
+            <li>
+              Online directory distributors may link to our Website in the same
+              manner as they hyperlink to the Websites of other listed
+              businesses; and
+            </li>
+            <li>
+              System wide Accredited Businesses except soliciting non-profit
+              organizations, charity shopping malls, and charity fundraising
+              groups which may not hyperlink to our Web site.
+            </li>
+          </ul>
+        </div>
         <p>
           These organizations may link to our home page, to publications or to
           other Website information so long as the link:
@@ -153,15 +169,19 @@ function TermsAndConditions() {
           We may consider and approve other link requests from the following
           types of organizations:
         </p>
-        <ul>
-          <li>commonly-known consumer and/or business information sources;</li>
-          <li>dot.com community sites;</li>
-          <li>associations or other groups representing charities;</li>
-          <li>online directory distributors;</li>
-          <li>internet portals;</li>
-          <li>accounting, law and consulting firms; and</li>
-          <li>educational institutions and trade associations.</li>
-        </ul>
+        <div className="px-5">
+          <ul>
+            <li>
+              commonly-known consumer and/or business information sources;
+            </li>
+            <li>dot.com community sites;</li>
+            <li>associations or other groups representing charities;</li>
+            <li>online directory distributors;</li>
+            <li>internet portals;</li>
+            <li>accounting, law and consulting firms; and</li>
+            <li>educational institutions and trade associations.</li>
+          </ul>
+        </div>
         <br />
         <p>
           We will approve link requests from these organizations if we decide
@@ -174,7 +194,7 @@ function TermsAndConditions() {
           (b) the organization does not have any negative records with us;
           <br />
           (c) the benefit to us from the visibility of the hyperlink compensates
-          the absence of Legendmp Tech; and
+          the absence of Legendmp Technologies; and
           <br />
           (d) the link is in the context of general resource information.
         </p>
@@ -194,25 +214,29 @@ function TermsAndConditions() {
         <p>
           If you are one of the organizations listed in paragraph 2 above and
           are interested in linking to our website, you must inform us by
-          sending an e-mail to Legendmp Tech. Please include your name, your
-          organization name, contact information as well as the URL of your
+          sending an e-mail to Legendmp Technologies. Please include your name,
+          your organization name, contact information as well as the URL of your
           site, a list of any URLs from which you intend to link to our Website,
           and a list of the URLs on our site to which you would like to link.
           Wait 2-3 weeks for a response.
         </p>
-        <b>Approved organizations may hyperlink to our Website as follows:</b>
-        <ul>
-          <li>By use of our corporate name; or</li>
-          <li>By use of the uniform resource locator being linked to; or</li>
-          <li>
-            By use of any other description of our Website being linked to that
-            makes sense within the context and format of content on the linking
-            party&apos;s site.
-          </li>
-        </ul>
+        <b className="my-3">
+          Approved organizations may hyperlink to our Website as follows:
+        </b>
+        <div className="px-5">
+          <ul>
+            <li>By use of our corporate name; or</li>
+            <li>By use of the uniform resource locator being linked to; or</li>
+            <li>
+              By use of any other description of our Website being linked to
+              that makes sense within the context and format of content on the
+              linking party&apos;s site.
+            </li>
+          </ul>
+        </div>
         <p>
-          No use of Legendmp Tech&apos;s logo or other artwork will be allowed
-          for linking absent a trademark license agreement.
+          No use of Legendmp Technologies&apos;s logo or other artwork will be
+          allowed for linking absent a trademark license agreement.
         </p>
         <h2>iFrames</h2>
         <p>
@@ -257,23 +281,26 @@ function TermsAndConditions() {
           representations, warranties and conditions relating to our website and
           the use of this website. Nothing in this disclaimer will:
         </p>
-        <ul>
-          <li>
-            limit or exclude our or your liability for death or personal injury;
-          </li>
-          <li>
-            limit or exclude our or your liability for fraud or fraudulent
-            misrepresentation;
-          </li>
-          <li>
-            limit any of our or your liabilities in any way that is not
-            permitted under applicable law; or
-          </li>
-          <li>
-            exclude any of our or your liabilities that may not be excluded
-            under applicable law.
-          </li>
-        </ul>
+        <div className="px-5">
+          <ul>
+            <li>
+              limit or exclude our or your liability for death or personal
+              injury;
+            </li>
+            <li>
+              limit or exclude our or your liability for fraud or fraudulent
+              misrepresentation;
+            </li>
+            <li>
+              limit any of our or your liabilities in any way that is not
+              permitted under applicable law; or
+            </li>
+            <li>
+              exclude any of our or your liabilities that may not be excluded
+              under applicable law.
+            </li>
+          </ul>
+        </div>
         <p>
           The limitations and prohibitions of liability set in this Section and
           elsewhere in this disclaimer:

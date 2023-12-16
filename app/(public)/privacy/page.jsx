@@ -1,13 +1,20 @@
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: "Privacy Policy | Legendmp Technologies",
+  description:
+    "Legendmp Technologies is a Software company. We serve Mobile and Web applications to our clients.",
+};
+
 function Privacy() {
   return (
     <main className="page">
       <div className="app_container pt-3">
         <h1>Privacy Policy</h1>{" "}
         <p>
-          Legendmp Technology is a Software company which gives Saas Products.{" "}
+          Legendmp Technologies is a Software company. We serve Mobile and Web
+          applications to our clients.{" "}
           <b>
             ` Our mission is to create innovative technology that revolutionizes
             the way we live and enhances the human experience `
@@ -50,44 +57,46 @@ function Privacy() {
             the app
           </p>
           <br />
-          <ul className="main">
-            <li>
-              <Link
-                href="https://www.google.com/policies/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Google Play Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://firebase.google.com/policies/analytics"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Google Analytics for Firebase
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://firebase.google.com/support/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Firebase Crashlytics
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="https://expo.io/privacy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Expo
-              </Link>
-            </li>
-          </ul>
+          <div className="px-5">
+            <ul className="main">
+              <li>
+                <Link
+                  href="https://www.google.com/policies/privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Play Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://firebase.google.com/policies/analytics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Analytics for Firebase
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://firebase.google.com/support/privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Firebase Crashlytics
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://expo.io/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Expo
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>{" "}
         <h2>Log Data</h2>
         <p>
