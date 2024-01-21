@@ -5,7 +5,7 @@ function Privacy() {
   return (
     <main className="page mt-5">
       <div className="app_container">
-        <h2 className="sticky top-6 lg:relative lg:top-0">Privacy Policy</h2>{" "}
+        <h2>Privacy Policy</h2>{" "}
         <p>
           Legendmp Tech built the TakeMe app as a Freemium app. This SERVICE is
           provided by Legendmp Tech at no cost and is intended for use as is.

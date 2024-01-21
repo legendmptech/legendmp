@@ -43,6 +43,12 @@ const Footer = () => {
           <Link href={"/privacy"} className="link link-hover">
             Privacy policy
           </Link>
+          <Link href={"/refund-policy"} className="link link-hover">
+            Refund policy
+          </Link>
+          <Link href={"/return-policy"} className="link link-hover">
+            Return policy
+          </Link>
         </nav>
       </footer>
       <footer className="footer justify-center px-10 py-4 border-t bg-base-200 text-base-content border-base-300">

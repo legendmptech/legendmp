@@ -14,14 +14,12 @@ export default function Home() {
       <div className="w-full flex flex-col items-center justify-center">
         <div className="hero">
           <h1 className="max-w-prose text-white text-center">
-            Streamlining Technology, Simplified by Legendmp Technologies
+            Website & Mobile App development Services
           </h1>
           <p className="max-w-prose text-gray-200 text-justify">
-            At Legendmp Technologies, we are passionate about harnessing the
-            power of technology to revolutionize lives and enhance human
-            experiences. Our journey is marked by creativity, dedication, and a
-            commitment to shaping a future where digital solutions simplify
-            complexities and inspire innovation.
+            Our journey is marked by creativity, dedication, and a commitment to
+            shaping a future where digital solutions simplify complexities and
+            inspire innovation.
           </p>
         </div>
         <div>

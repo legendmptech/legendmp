@@ -47,7 +47,7 @@ const NavBar = ({ child, navList, Logo }) => {
           </div>
         </div>
         {/* Page content here */}
-        {child}
+        <div className="px-5 sm:px-0">{child}</div>
       </div>
       <div className="drawer-side">
         <label

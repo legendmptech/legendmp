@@ -13,7 +13,7 @@ export default function ContactUs() {
           today!
         </span>
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 px-5">
         <h1>Legendmp Technologies</h1>
         <div>
           <h3>Address</h3>
