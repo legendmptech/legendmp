@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import LogoIcon from "./components/Icons/LogoIcon";
 
-const NavBar = ({ child, navList, Logo }) => {
+const SinglePageNavBar = ({ child, navList, Logo }) => {
   return (
     <div className="drawer z-50">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -71,4 +71,4 @@ const NavBar = ({ child, navList, Logo }) => {
   );
 };
 
-export default NavBar;
+export default SinglePageNavBar;

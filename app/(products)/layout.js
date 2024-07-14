@@ -1,5 +1,4 @@
 import ProductNavBar from "../components/ProductNavBar";
-import LogoTakeMeIcon from "../components/Icons/LogoTakeMeIcon";
 import Image from "next/image";
 
 export const metadata = {
@@ -7,8 +6,7 @@ export const metadata = {
   description: "Take notes and Organize Effectively",
 };
 
-export default function TakeMEAppLayout({ children, params }) {
-  //   console.log(params);
+export default async function ProductLayout({ children, params }) {
   const navList = [
     {
       link: "/product/take-me/privacy",
