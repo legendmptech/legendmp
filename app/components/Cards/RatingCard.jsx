@@ -10,6 +10,7 @@ function RatingCard({ name, review, profile_link, no_of_stars }) {
             src={profile_link}
             width={50}
             height={50}
+            alt="profile image"
             className="w-full h-full object-cover"
           />
         </div>

@@ -60,6 +60,7 @@ export default function ServicePlanCard({
             src={imageLink}
             width={256}
             height={256}
+            alt="helpfull svg"
             className="md:w-[100px] md:h-[100px] w-[150px] h-[150px]"
           />
         )}

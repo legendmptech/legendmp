@@ -28,6 +28,7 @@ export default async function ProductLayout({ children, params }) {
             width={70}
             height={70}
             className="rounded-lg"
+            alt="product logo"
           />
         }
         Logo={
@@ -37,6 +38,7 @@ export default async function ProductLayout({ children, params }) {
               width={100}
               height={100}
               className="rounded-lg"
+              alt="product logo"
             />
             <b>TakeMe | take notes</b>
           </div>

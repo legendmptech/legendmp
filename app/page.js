@@ -24,7 +24,7 @@ export default function Home() {
     <main className="page pb-10">
       <div className="w-full flex flex-col items-center justify-center">
         <div className="hero mb-10">
-          <p className="text-5xl md:text-6xl lg:text-7xl text-white">
+          <p className="text-5xl md:text-6xl lg:text-7xl text-white" id="home">
             Get Your Business Website <br /> @ just{" "}
             <Link
               href={"#businesswebsite_section"}
@@ -40,10 +40,12 @@ export default function Home() {
             We are
             <VscWorkspaceTrusted />
           </p>
-          <span className="text-4xl sm:text-5xl md:text-6xl text-black"></span>
+          <span className="text-4xl sm:text-5xl md:text-6xl text-black z-0"></span>
         </div>
-        <h1 className="text-center mb-10 md:mb-15 mt-10">PRICING</h1>
-        <Link href="#ecommerce-section">
+        <h1 className="text-center mb-10 md:mb-15 mt-5" id="pricing">
+          PRICING
+        </h1>
+        <Link href="#ecommerce-section" id="websites">
           <p className="btn btn-info">
             Make Payment Only When Your Website is live on Internet
             <FaArrowAltCircleRight />
@@ -110,7 +112,7 @@ export default function Home() {
         </div>
 
         <ServicesComp />
-        <div className="px-5">
+        <div className="px-5" id="contactus">
           <h1>Contact Us</h1>
           <h2 className="text-center mt-5">
             Call us : <br />

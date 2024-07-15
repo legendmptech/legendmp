@@ -162,6 +162,7 @@
   content: "Reliable";
   /* color: #f6ff00; */
   animation: words 9s infinite;
+  z-index: 1;
 }
 
 .animated-text span::after {
@@ -173,6 +174,7 @@
   border-left: 2px solid #000;
   right: -8px;
   animation: cursor 0.8s infinite, typing 9s steps(14) infinite;
+  z-index: 2;
 }
 
 @keyframes cursor {
