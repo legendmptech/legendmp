@@ -1,5 +1,4 @@
 import ProductNavBar from "../components/ProductNavBar";
-import LogoTakeMeIcon from "../components/Icons/LogoTakeMeIcon";
 import Image from "next/image";
 
 export const metadata = {
@@ -7,8 +6,7 @@ export const metadata = {
   description: "Take notes and Organize Effectively",
 };
 
-export default function TakeMEAppLayout({ children, params }) {
-  //   console.log(params);
+export default async function ProductLayout({ children, params }) {
   const navList = [
     {
       link: "/product/take-me/privacy",
@@ -30,6 +28,7 @@ export default function TakeMEAppLayout({ children, params }) {
             width={70}
             height={70}
             className="rounded-lg"
+            alt="product logo"
           />
         }
         Logo={
@@ -39,6 +38,7 @@ export default function TakeMEAppLayout({ children, params }) {
               width={100}
               height={100}
               className="rounded-lg"
+              alt="product logo"
             />
             <b>TakeMe | take notes</b>
           </div>

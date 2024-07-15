@@ -4,7 +4,9 @@ import FlexShowcase from "./FlexShowcase";
 const ServicesComp = () => {
   return (
     <>
-      <h1 className="text-center mt-5">Our Services</h1>
+      <h1 className="text-center mt-5" id="services_section">
+        Our Services
+      </h1>
       <div className="flex flex-col max-w-4xl px-5">
         <FlexShowcase
           isReverse={false}

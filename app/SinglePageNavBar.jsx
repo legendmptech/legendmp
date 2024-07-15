@@ -2,13 +2,16 @@ import Link from "next/link";
 import React from "react";
 import LogoIcon from "./components/Icons/LogoIcon";
 
-const NavBar = ({ child, navList, Logo }) => {
+const SinglePageNavBar = ({ child, navList, Logo }) => {
   return (
-    <div className="drawer z-50">
+    <div className="drawer" style={{ zIndex: 100 }}>
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full navbar bg-base-200 md:flex md:justify-center sticky top-0 left-0">
+        <div
+          className="w-full navbar bg-base-200 md:flex md:justify-center sticky top-0 left-0"
+          style={{ zIndex: 98 }}
+        >
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -30,7 +33,7 @@ const NavBar = ({ child, navList, Logo }) => {
               </svg>
             </label>
           </div>
-          <div className="w-full max-w-5xl flex justify-between px-2 z-50">
+          <div className="w-full max-w-5xl flex justify-between px-2">
             {Logo}
             <div className="flex-none hidden lg:block">
               <ul className="menu menu-horizontal">
@@ -49,7 +52,7 @@ const NavBar = ({ child, navList, Logo }) => {
         {/* Page content here */}
         <div className="">{child}</div>
       </div>
-      <div className="drawer-side">
+      <div className="drawer-side" style={{ zIndex: 100 }}>
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
@@ -71,4 +74,4 @@ const NavBar = ({ child, navList, Logo }) => {
   );
 };
 
-export default NavBar;
+export default SinglePageNavBar;

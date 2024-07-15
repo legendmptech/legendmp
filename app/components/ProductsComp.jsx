@@ -5,7 +5,7 @@ const ProductsComp = () => {
   return (
     <>
       <h1 className="font-bold text-center mt-8">Our Products</h1>
-      <div className="w-full flex flex-col gap-2 items-center md:flex-row">
+      <div className="w-full flex flex-col gap-2 items-center md:flex-row px-4">
         <ProductCard
           title={"TakeMe App"}
           desc={
