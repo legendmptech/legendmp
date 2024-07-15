@@ -14,7 +14,7 @@ export default function ServicePlanCard({
 }) {
   return (
     <div
-      className={`w-4/5 md:w-full hover:cursor-pointer  border-gray-400 p-7 hover:shadow-sm hover:shadow-black rounded-2xl ${
+      className={`w-11/12 md:w-full hover:cursor-pointer  border-gray-400 p-7 hover:shadow-sm hover:shadow-black rounded-2xl ${
         highlight ? "bg-blue-800" : "bg-gray-100"
       }`}
       style={{ borderWidth: "1px" }}

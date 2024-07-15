@@ -11,8 +11,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 export const metadata = {
   title:
     "Legendmp Technologies | We Provide Mobile & Web app development services",
-  description:
-    "Legendmp Technologies is a Software company. We serve Mobile and Web applications to our client.",
+  description: "Get your Business website at just ₹1999",
 };
 
 export default function Home() {
@@ -31,7 +30,7 @@ export default function Home() {
               className="link link-hover text-white text-6xl md:text-7xl lg:text-8xl"
               style={{ color: "white" }}
             >
-              ₹ 1,999
+              ₹1,999
             </Link>
           </p>
         </div>
@@ -46,8 +45,8 @@ export default function Home() {
           PRICING
         </h1>
         <Link href="#ecommerce-section" id="websites">
-          <p className="btn btn-info">
-            Make Payment Only When Your Website is live on Internet
+          <p className="btn btn-info w-fit h-fit p-4">
+            Make Payment When Your Site is live
             <FaArrowAltCircleRight />
           </p>
         </Link>
@@ -55,7 +54,7 @@ export default function Home() {
           <h2 className="text-center mt-3" id="businesswebsite-section">
             Business Websites
           </h2>
-          <p className="text-center mb-5">
+          <p className="text-center mb-4 mx-4">
             Your business websites comes with{" "}
             <strong>6 MONTHS FREE HOSTING</strong>
           </p>
@@ -70,7 +69,7 @@ export default function Home() {
           <h2 className="text-center mt-3" id="dynamicwebsite-section">
             Dynamic Websites
           </h2>
-          <p className="text-center mb-4">
+          <p className="text-center mb-4 mx-4">
             Content of the Webpage changes periodically like Youtube, Blog
             etc... NOTE : for E-Commerce website{" "}
             <Link href={"#ecommerce-section"}>click here</Link>
@@ -84,7 +83,7 @@ export default function Home() {
           <h2 className="text-center mt-3" id="ecommerce-section">
             E-Commerce Websites
           </h2>
-          <p className="text-center mb-4">
+          <p className="text-center mb-4 mx-4">
             Content of the Webpage changes periodically like Youtube, Ecommerce,
             Blog etc...
           </p>
@@ -100,7 +99,7 @@ export default function Home() {
           >
             Android Mobile Apps <IoLogoAndroid color="green" size={50} />
           </h2>
-          <p className="text-center mb-4">
+          <p className="text-center mb-4 mx-4">
             The Below pricing may change based on your requirements
           </p>
           <div className="w-full flex justify-center">
@@ -116,12 +115,12 @@ export default function Home() {
           <h1>Contact Us</h1>
           <h2 className="text-center mt-5">
             Call us : <br />
-            <Link href={"tel:+919025802851"} target="_blank">
+            <Link href={"tel:9025802851"} target="_blank">
               +91-9025802851
             </Link>
           </h2>
 
-          <h2 className="text-center mt-5">
+          <h2 className="text-center mt-5 mx-4">
             Email Id : <br />
             <Link href={"mailto:s_mohan_prasath@legendmp.com"} target="_blank">
               s_mohan_prasath@legendmp.com

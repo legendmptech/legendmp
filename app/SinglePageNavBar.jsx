@@ -1,11 +1,12 @@
 import Link from "next/link";
 import React from "react";
 import LogoIcon from "./components/Icons/LogoIcon";
+import SinglePageSideBar from "./SinglePageSideBar";
 
 const SinglePageNavBar = ({ child, navList, Logo }) => {
   return (
     <div className="drawer" style={{ zIndex: 100 }}>
-      <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+      <input id="singlePageSidebar" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
         <div
@@ -14,7 +15,7 @@ const SinglePageNavBar = ({ child, navList, Logo }) => {
         >
           <div className="flex-none lg:hidden">
             <label
-              htmlFor="my-drawer-3"
+              htmlFor="singlePageSidebar"
               aria-label="open sidebar"
               className="btn btn-square btn-ghost"
             >
@@ -52,24 +53,7 @@ const SinglePageNavBar = ({ child, navList, Logo }) => {
         {/* Page content here */}
         <div className="">{child}</div>
       </div>
-      <div className="drawer-side" style={{ zIndex: 100 }}>
-        <label
-          htmlFor="my-drawer-3"
-          aria-label="close sidebar"
-          className="drawer-overlay"
-        ></label>
-        <ul className="menu p-4 w-80 min-h-full bg-base-100">
-          <LogoIcon className="mb-5" />
-          {/* Sidebar content here */}
-          {navList?.map((item, i) => {
-            return (
-              <li className="" key={i}>
-                <Link href={item.link}>{item.title}</Link>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
+      <SinglePageSideBar navList={navList} />
     </div>
   );
 };
