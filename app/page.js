@@ -1,16 +1,15 @@
 import ServicesComp from "./components/ServicesComp";
-import RatingsComp from "./components/RatingsComp";
 import ServicePlanCard from "./components/Cards/ServicePlanCard";
 import { servicePricing } from "./data/ui";
-import ProductsComp from "./components/ProductsComp";
 import Link from "next/link";
+
 import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { IoLogoAndroid } from "react-icons/io";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
 export const metadata = {
   title:
-    "Legendmp Technologies | We Provide Mobile & Web app development services",
+    "Legendmp Technologies | Website & Mobile app development services",
   description: "Get your Business website at just ₹1999",
 };
 
@@ -115,6 +114,10 @@ export default function Home() {
           <h1>Contact Us</h1>
           <h2 className="text-center mt-5">
             Call us : <br />
+            <Link href={"tel:6369078961"} target="_blank">
+              +91-6369078961
+            </Link>
+            <br />
             <Link href={"tel:9025802851"} target="_blank">
               +91-9025802851
             </Link>

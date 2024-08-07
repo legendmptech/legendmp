@@ -10,13 +10,13 @@ function BottomContactBar(props) {
           className="lg:hidden bg-blue-800 p-3 rounded-full hover:cursor-pointer hover:bg-green-700 transition-colors"
           id="callBtn"
         >
-          <a href={"tel:9025802851"} target="_blank">
+          <a href={"tel:6369078961"} target="_blank">
             <IoCall size={35} color="white" />
           </a>
         </div>
         <Link
           href={
-            "https://api.whatsapp.com/send/?phone=9025802851&text=Hello%20Legendmp%20Technologies!%20I%20am%20"
+            "https://api.whatsapp.com/send/?phone=6369078961&text=Hello%20Legendmp%20Technologies!%20I%20am%20"
           }
           target="_blank"
         >
