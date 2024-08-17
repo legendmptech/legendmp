@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Contact Us | Legendmp Technologies",
   description:
-    "Call us : +91 7871448472 | Mail us : s_mohan_prasath@legendmp.com | Legendmp Technologies is a Software company. We serve Mobile and Web applications to our clients.",
+    "Call us : +91 7871448472 | Mail us : s_mohan_prasath@legendmp.com | Legendmp Technologies is a Website Development company. We serve Mobile and Web applications to our clients.",
 };
 export default function ContactUs() {
   return (
@@ -25,7 +25,7 @@ export default function ContactUs() {
         </div>
         <div>
           <h3>Call Us</h3>
-          <p>+91 7871448472</p>
+          <p>+91 9025802851</p>
         </div>
         <div className="flex flex-col gap-2">
           <p className="font-bold">Time Zone : UTC +5:30</p>

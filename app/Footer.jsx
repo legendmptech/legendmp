@@ -5,12 +5,6 @@ const Footer = () => {
   return (
     <footer>
       <footer className="footer p-10 bg-base-200 text-base-content">
-        {/* <aside className="items-center grid-flow-row">
-          <div>
-            <LogoIcon />
-            <i>we provice software solutions</i>
-          </div>
-        </aside> */}
         <nav>
           <header className="footer-title">Site Map</header>
           <Link href={"/"} className="link link-hover">

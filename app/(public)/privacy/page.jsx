@@ -4,7 +4,7 @@ import React from "react";
 export const metadata = {
   title: "Privacy Policy | Legendmp Technologies",
   description:
-    "Legendmp Technologies is a Software company. We serve Mobile and Web applications to our clients.",
+    "Legendmp Technologies is a Website Development company. We serve Mobile and Web applications to our clients.",
 };
 
 function Privacy() {
@@ -13,7 +13,7 @@ function Privacy() {
       <div className="app_container pt-3">
         <h1>Privacy Policy</h1>{" "}
         <p>
-          Legendmp Technologies is a Software company. We serve Mobile and Web
+          Legendmp Technologies is a Website development company. We serve Mobile and Web
           applications to our clients.{" "}
           <b>
             ` Our mission is to create innovative technology that revolutionizes

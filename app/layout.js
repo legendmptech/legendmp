@@ -10,21 +10,18 @@ import Script from "next/script";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 export default function RootLayout({ children, params }) {
+  let baseURL = process.env.NEXT_PUBLIC_URL;
   const navList = [
     {
-      link: "#websites",
-      title: "Website Services",
-    },
-    {
-      link: "#ecommerce-section",
+      link: `${baseURL}#ecommercewebsite-section`,
       title: "ECommerce Websites",
     },
     {
-      link: "#androidapp-section",
+      link: `${baseURL}#androidapp-section`,
       title: "Mobile App Services",
     },
     {
-      link: "#contactus",
+      link: `${baseURL}#contactus`,
       title: "Contact Us",
     },
   ];

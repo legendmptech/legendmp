@@ -5,11 +5,10 @@ import Link from "next/link";
 
 import { VscWorkspaceTrusted } from "react-icons/vsc";
 import { IoLogoAndroid } from "react-icons/io";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+import { FaRegCalendarAlt } from "react-icons/fa";
 
 export const metadata = {
-  title:
-    "Legendmp Technologies | Website & Mobile app development services",
+  title: "Legendmp Technologies | Website & Mobile app development services",
   description: "Get your Business website at just ₹1999",
 };
 
@@ -25,7 +24,7 @@ export default function Home() {
           <p className="text-5xl md:text-6xl lg:text-7xl text-white" id="home">
             Get Your Business Website <br /> @ just{" "}
             <Link
-              href={"#businesswebsite_section"}
+              href={"#businesswebsite-section"}
               className="link link-hover text-white text-6xl md:text-7xl lg:text-8xl"
               style={{ color: "white" }}
             >
@@ -33,7 +32,7 @@ export default function Home() {
             </Link>
           </p>
         </div>
-        <div className="animated-text w-full px-3 pb-5 border-b-2 max-w-2xl mb-5 md:mb-10">
+        <div className="animated-text w-full px-3 pb-5 max-w-2xl mb-5 md:mb-10">
           <p className="text-2xl sm:text-3xl text-white bg-black rounded-md p-2 w-fit flex items-center gap-2">
             We are
             <VscWorkspaceTrusted />
@@ -43,12 +42,6 @@ export default function Home() {
         <h1 className="text-center mb-10 md:mb-15 mt-5" id="pricing">
           PRICING
         </h1>
-        <Link href="#ecommerce-section" id="websites">
-          <p className="btn btn-info w-fit h-fit p-4">
-            Make Payment When Your Site is live
-            <FaArrowAltCircleRight />
-          </p>
-        </Link>
         <div className="w-full max-w-5xl">
           <h2 className="text-center mt-3" id="businesswebsite-section">
             Business Websites
@@ -71,7 +64,7 @@ export default function Home() {
           <p className="text-center mb-4 mx-4">
             Content of the Webpage changes periodically like Youtube, Blog
             etc... NOTE : for E-Commerce website{" "}
-            <Link href={"#ecommerce-section"}>click here</Link>
+            <Link href={"#ecommercewebsite-section"}>click here</Link>
           </p>
           <div className="w-full flex justify-center">
             <div className="w-full px-5 flex flex-col md:flex-row gap-3 mb-20 max-w-3xl items-center md:items-stretch">
@@ -79,7 +72,7 @@ export default function Home() {
               <ServicePlanCard {...dynamicWebsitePricing?.enterprise} />
             </div>
           </div>
-          <h2 className="text-center mt-3" id="ecommerce-section">
+          <h2 className="text-center mt-3" id="ecommercewebsite-section">
             E-Commerce Websites
           </h2>
           <p className="text-center mb-4 mx-4">
@@ -110,13 +103,27 @@ export default function Home() {
         </div>
 
         <ServicesComp />
-        <div className="px-5" id="contactus">
+        <div className="px-5 mt-10" id="contactus">
           <h1>Contact Us</h1>
-          <h2 className="text-center mt-5">
-            Call us : <br />
-            <Link href={"tel:6369078961"} target="_blank">
-              +91-6369078961
+          <h2 className="text-center mt-5">Book Appointment:</h2>
+          <p className="max-w-lg text-center">
+            Book a free appointment with our expert developers to transform your
+            ideas into reality. Whether you{"'"}re refining a concept or need
+            guidance, we{"’"}re here to help you navigate the website
+            development process. Click the button below to schedule your free
+            consultation, resolve any doubts, and start turning your vision into
+            a powerful digital solution {"–"} all at no cost!
+            <br />
+            <Link
+              href={"book-consultation-appointment"}
+              className="btn btn-secondary my-3"
+              style={{ color: "white" }}
+            >
+              <FaRegCalendarAlt /> Book Free Appointment
             </Link>
+          </p>
+          <h2 className="text-center mt-5">
+            Call us :
             <br />
             <Link href={"tel:9025802851"} target="_blank">
               +91-9025802851

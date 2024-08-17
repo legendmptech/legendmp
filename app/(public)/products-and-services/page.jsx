@@ -6,7 +6,7 @@ export const metadata = {
   title:
     "Products and Services | Legendmp Technologies | We Provide Mobile & Web app development services",
   description:
-    "Legendmp Technologies is a Software company. We serve Mobile and Web applications to our clients.",
+    "Legendmp Technologies is a Website Designing company. We serve Mobile and Web applications to our clients.",
 };
 
 function Products() {

@@ -63,11 +63,10 @@ export const servicePricing = {
       planName: "BASIC",
       price: "1,999",
       serviceList: [
-        "Single page",
+        "Simple Website",
         "1 free domain",
         "6 months free hosting",
         "Unlimited Bandwidth",
-        "Upto 10 images",
         "Responsive Website",
         "Social Media Integration",
         "Get in 1 or 2 Working Days",
@@ -83,12 +82,10 @@ export const servicePricing = {
       price: "2,999",
       highlight: true,
       serviceList: [
-        "Multi page (upto 6 pages)",
+        "Startup Website",
         "1 free domain",
         "6 months free hosting",
-        "1 free business Email Id",
         "Unlimited Bandwidth",
-        "Upto 50 images",
         "Responsive Website",
         "Social Media Integration",
       ],
@@ -102,9 +99,8 @@ export const servicePricing = {
       planName: "ENTERPRISE",
       price: "₹₹",
       serviceList: [
-        "Unlimited pages",
+        "Enterprise Level Website",
         "1 free domain",
-        "1 free business email id",
         "Unlimited Bandwidth",
         "Unlimited images",
         "Responsive Website",
@@ -124,7 +120,6 @@ export const servicePricing = {
       serviceList: [
         "Customized Based on your needs",
         "1 free domain",
-        "1 free Business Email Id",
         "Limited Bandwidth",
         "Responsive Website",
         "Social Media Integration",
@@ -142,7 +137,6 @@ export const servicePricing = {
       serviceList: [
         "Customized Based on your needs",
         "1 free domain",
-        "1 free Business Email Id",
         "Unlimited Bandwidth",
         "Unlimited images",
         "Responsive Website",
@@ -162,13 +156,14 @@ export const servicePricing = {
       price: "4,999",
       serviceList: [
         "1 free domain",
-        "1 free Business Email Id",
         "Limited products listing upto 100",
         "Unlimited Bandwidth",
         "Responsive Website",
         "Social Media Integration",
         "Payment Gateway Integration",
-        "Limited Functionality",
+        "Basic Admin Panel",
+        "Billing software Integration",
+        "All you need to run your startup online store",
         "Get in 1 or 2 Working Days",
       ],
       imageLink:
@@ -183,16 +178,16 @@ export const servicePricing = {
       serviceList: [
         "Customized Based on your needs",
         "1 free domain",
-        "1 free Business Email Id",
         "Authentication (Signin/Signup)",
         "Unlimited product listing",
-        "ADMIN Panel",
+        "ADMIN Panel with Advanced Features",
         "Analytics tool integration",
         "Unlimited Bandwidth",
-        "Unlimited images",
         "Responsive Website",
         "Social Media Integration",
+        "Billing software Integration",
         "Cloud Storage",
+        "All you need to run your Enterprise online store",
       ],
       imageLink:
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKjYaFVmKS0eVVMP-fO5j8i6-46cTYfRt68fBI0Sy_WokIhZIgWfZhVwLAQclDj37pH1CEt2h7gAe0F3xA1XYjYIwMX-1ZLfIAFirZX-2TT5EosTGt_JqSo5Ig2v-OvFEEBQEPaekIrj-OH-w09Kd3JBkfu69dR_nno-fZUiyuRmSc8-qwAeAol3Ev95vy/s1600/office-building-icon.png",
@@ -206,8 +201,9 @@ export const servicePricing = {
       planName: "OFFLINE APPS",
       price: "5,499+",
       serviceList: [
-        "Will be developed based on custom requirements",
+        "Will be developed based on your custom requirements",
         "Offline functionalities",
+        "Playstore publish",
       ],
       isShowDetailsBtnAvailable: false,
       quoteLink:
@@ -220,7 +216,9 @@ export const servicePricing = {
         "Will be developed based on your custom requirements",
         "Authentication (Signin/Signup)",
         "Internet interaction functionalities",
-        "...",
+        "Playstore publish",
+        "Google Adsense Integration",
+        "Google Analytics Integration"
       ],
       isShowDetailsBtnAvailable: false,
       quoteLink:

@@ -1,7 +1,7 @@
 export const metadata = {
   title: "About Us | Legendmp Technologies",
   description:
-    "How we Started ? Our Mission & Goals | Legendmp Technologies is a Software company. We serve Mobile and Web applications to our clients.",
+    "How we Started ? Our Mission & Goals | Legendmp Technologies is a Website Development company. We serve Mobile and Web applications to our clients.",
 };
 function AboutPage() {
   return (

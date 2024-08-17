@@ -10,7 +10,7 @@ function BottomContactBar(props) {
           className="lg:hidden bg-blue-800 p-3 rounded-full hover:cursor-pointer hover:bg-green-700 transition-colors"
           id="callBtn"
         >
-          <a href={"tel:6369078961"} target="_blank">
+          <a href={"tel:9025802851"} target="_blank">
             <IoCall size={35} color="white" />
           </a>
         </div>
