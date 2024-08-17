@@ -8,7 +8,7 @@ import { IoLogoAndroid } from "react-icons/io";
 import { FaRegCalendarAlt } from "react-icons/fa";
 
 export const metadata = {
-  title: "Legendmp Technologies | Website & Mobile app development services",
+  title: "Legendmp Technologies | Website development & Mobile app development services",
   description: "Get your Business website at just ₹1999",
 };
 

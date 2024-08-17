@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Contact Us | Legendmp Technologies",
   description:
-    "Call us : +91 7871448472 | Mail us : s_mohan_prasath@legendmp.com | Legendmp Technologies is a Website Development company. We serve Mobile and Web applications to our clients.",
+    "Call us : +91-9025802851 | Mail us : s_mohan_prasath@legendmp.com | Legendmp Technologies is a Website Development company. We serve Mobile and Web applications to our clients.",
 };
 export default function ContactUs() {
   return (
